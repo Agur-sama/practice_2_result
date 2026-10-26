@@ -1,6 +1,6 @@
-import requests
 import matplotlib.pyplot as plt
 import pandas as pd
+import requests
 
 url = "https://api.open-meteo.com/v1/forecast"
 params = {"latitude": 55.75, "longitude": 37.61, "hourly": "temperature_2m"}
